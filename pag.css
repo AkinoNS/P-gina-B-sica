@@ -64,4 +64,8 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
+.titulo{
+    margin-top: 10px;
+    text-align: right;
+    
+}
