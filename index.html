@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pag.css">
     <title>Mi Página Web</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
    
 </head>
 <body>
  
     <header>
-        <h1>Style's Shop</h1>
+        <h1 class="animate__animated animate__bounce">Style's Shop</h1>
         <div class="titulo">
-          <h1 class="animate_animated animate_bounceIn" id="titulo"></h1>
-          <img src="https://cdn-icons-png.freepik.com/256/743/743068.png?semt=ais_hybrid" width="5%" alt="Carrito De Compras" class="img-fluid carrito-img">
         </div>
     </header>
-
+ 
+    <div class="navegacion">
     <nav>
         <a href="#home">Inicio</a>
         <a href="#about">Acerca de</a>
         <a href="#contact">Contacto</a>
         <a href="#men">Hombre</a>
         <a href="#woman">Mujer</a>
+        <a href="#"><img src="https://cdn-icons-png.freepik.com/256/743/743068.png?semt=ais_hybrid" alt="Carrito De Compras" class="img-fluid"> </a>    
     </nav>
-
+  </div>
     <main>
         <h2>Sobre Nosotros</h2>
         <p>Esta es la página Oficial de Style´s Shop´s.</p>
@@ -33,57 +37,51 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Carrito De Compras</h5>
+                  <h5 class="modal-title">Modal title</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <p>Agrega Tus Compras Aquí</p>
+                  <p>Modal body text goes here.</p>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Comprar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
             </div>
           </div>
 
-
-
-
-
-
         <div class="product-grid">
-            <div class="product 1">
+            <div class="product">
                 <a href="https://ejemplo.com/camisa-hombre" target="img">
                     <img src="Imagenes/d98760a04abda17f42716ceb8c18e760.jpeg" alt="Camisa para hombre">
                 </a>
-                <h3><a href="https://ejemplo.com/camisa-hombre"> <a target="_blank">Camisa Casual</a></h3>
-                <div class="namee"> <p>Camisa Oversize Hombre</p> </div>
-                <div class="price"><span>$299.999</span></div>
-                <p></p>
-                <button type="button" class="btn btn-primary"
-                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                  Agregar Al Carro
-                </button>
-            </div>
-            <div class="product 2">
-                <a href="https://ejemplo.com/pantalon-mujer" target="_blank">
-                    <img src="Imagenes/cargo.jpg" alt="Pantalón Para Hombre">
+                <h3>Camisa Casual</h3>
+                <p>Camisa Oversize Hombre</p>
+                <span>$299.999</span>
+                <button type="button" class="btn btn-primary">Agregar al carrito</button>
+              </div>
+              <div class="product">
+                <a href="#" target="_blank">
+                  <img src="Imagenes/cargo.jpg" alt="Pantalón Para Hombre">
                 </a>
-                <h3><a href="https://ejemplo.com/pantalon-mujer" > <a target="_blank">Pantalón Jeans</a></h3>
+                <h3>Pantalón Jeans</h3>
                 <p>Pantalón Cargo Para Hombre</p>
                 <span>$399.999</span>
-            </div>
-            <div class="product 3">
+                <button type="button" class="btn btn-primary">Agregar al carrito</button>
+              </div>
+              <div class="product">
                 <a href="https://ejemplo.com/zapatos-hombre" target="_blank">
                     <img src="Imagenes/s-l1200.jpg" alt="Zapatos para hombre">
                 </a>
-                <h3><a href="https://ejemplo.com/zapatos-hombre"> <a target="_blank">Zapatos Elegantes</a></h3>
+                <h3>Zapatos Elegantes</h3>
                 <p>Zapatos Deportivos Para Hombre</p>
                 <span>$499.999</span>
-            </div>
+                <button type="button" class="btn btn-primary">Agregar al carrito</button>
+              </div>
             <!-- Puedes agregar más productos aquí -->
-        </div>
+             <!-- Esto de arriba es un comentario de chatgpt? -->
+         </div>
     </main>
 
     <footer>
