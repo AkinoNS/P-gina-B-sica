@@ -34,54 +34,78 @@
         <p>Esta es la página Oficial de Style´s Shop´s.</p>
 
         <div class="modal fade" id="miModal" tabindex="-1">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Carrito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <div id="carrito">
+                    <table id="lista-carrito" class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Imagen</th>
+                          <th scope="col">Nombre</th>
+                          <th scope="col">Precio</th>
+                          <th scope="col">Cantidad</th>
+                          <th scope="col"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                      </tbody>
+                    </table>  
                 </div>
-                <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                <div id="total-carrito">Total: $0.00</div>
+
+
+                </p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
                   <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
             </div>
           </div>
 
-        <div class="product-grid">
-            <div class="product">
-                <a href="https://ejemplo.com/camisa-hombre" target="img">
+        <div class="box-container">
+          <div class="porducts">
+            <div class="box box-1">
+            </div class="card" style="width: 14rem;">
                     <img src="Imagenes/d98760a04abda17f42716ceb8c18e760.jpeg" alt="Camisa para hombre">
-                </a>
-                <h3>Camisa Casual</h3>
+                    <div class="card-body">
+                <h3 class="card-title">Camisa Casual</h3>
                 <p>Camisa Oversize Hombre</p>
-                <span>$299.999</span>
-                <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                <p class="card-text">$299.999</p>
+                <a href="#" class="btn btn-primary"  data-id="1">Agregar al carrito</a>
               </div>
-              <div class="product">
-                <a href="#" target="_blank">
-                  <img src="Imagenes/cargo.jpg" alt="Pantalón Para Hombre">
-                </a>
-                <h3>Pantalón Jeans</h3>
+            </div>
+            <div class="box box-2">
+            </div class="card" style="width: 14rem;">
+                    <img src="Imagenes/cargo.jpg" alt="Pantalón Para Hombre">
+                    <div class="card-body">
+                <h3 class="card-title">Pantalón Jeans</h3>
                 <p>Pantalón Cargo Para Hombre</p>
-                <span>$399.999</span>
-                <button type="button" class="btn btn-primary">Agregar al carrito</button>
-              </div>
-              <div class="product">
-                <a href="https://ejemplo.com/zapatos-hombre" target="_blank">
+                <p class="card-text">$399.999</p>
+                <a href="#" class="btn btn-primary"  data-id="2">Agregar al carrito</a>
+            </div>
+          </div>
+            <div class="box box-3">
+            </div class="card" style="width: 14rem;">
                     <img src="Imagenes/s-l1200.jpg" alt="Zapatos para hombre">
-                </a>
-                <h3>Zapatos Elegantes</h3>
+                    <div class="card-body">
+                <h3 class="card-title">Zapatos Elegantes</h3>
                 <p>Zapatos Deportivos Para Hombre</p>
-                <span>$499.999</span>
-                <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                <p class="card-text">$499.999</p>
+                <a href="#" class="btn btn-primary"  data-id="3">Agregar al carrito</a>
               </div>
-            <!-- Puedes agregar más productos aquí -->
-             <!-- Esto de arriba es un comentario de chatgpt? -->
-         </div>
+            </div>
+        </div>
+        </div>
     </main>
 
     <footer>
@@ -92,4 +116,3 @@
     <script src= "main.js"></script>
 </body>
 </html>
-
